@@ -1,0 +1,367 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+body {
+  background-image: url('https://www.whatswithtech.com/wp-content/uploads/2017/09/oldpapertexture01.jpg');
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+
+.App {
+  text-align: center;
+  display: grid;
+  grid-template-rows: auto 3vh auto 3vh;
+  grid-template-columns: 1fr minmax(100%, 1300px) 1fr;
+  max-width: 1300px;
+  max-height: 1080px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.App > * {
+  grid-column: 2;
+}
+
+.footer {
+  position: absolute;
+  height: 3vh;
+  width: 1300px;
+  bottom: 0px;
+  background-color: black;
+  border-top:2px solid darkred;
+}
+
+.label {
+  font-family: 'Righteous', cursive;
+
+}
+
+/* header */
+
+header {
+  background-color: black;
+  background-image: url('https://media.dnd.wizards.com/styles/news_banner_header/public/images/head-banner/bg-heroes_0.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.header {
+  height: 15vh;
+  width: 100%;
+  grid-row: 1;
+  grid-column: 1 / span 3;
+  
+  /* background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), black) ; */
+  /* background-image: linear-gradient(rgba(255, 255, 255, 0), grey); */
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* navbar */
+.nav-bar {
+  /* text-align: ; */
+  /* height: 3vh; */
+  display: grid;
+  grid-row: 2;
+  grid-template-columns: 10% 10% 25% 10% 25% 10% 10%;
+  background-color: black;
+  border-bottom: 2px solid darkred;
+  border-top: 2px solid darkred;
+}
+
+.nav-bar > div {
+  color: antiquewhite;
+  height: 100%;
+  width: 100%;
+  display: block;
+  transition-duration: 250ms;
+}
+
+.nav-bar > div:hover {
+  cursor: pointer;
+  background-image: linear-gradient(rgba(255, 255, 255, 0), antiquewhite);
+  background-color: blanchedalmond;
+  
+}
+
+.nav-bar > div:hover * {
+  cursor: pointer;
+  /* background-image: linear-gradient(rgba(255, 255, 255, 0), antiquewhite); */
+  /* background-color: blanchedalmond; */
+  color: black;
+}
+
+.nav-bar > div:active {
+  cursor: pointer;
+  background-color: red;
+}
+
+a {
+  height: 100%;
+  width: 100%;
+  color: aliceblue;
+  transition: 500ms;
+  font-family: 'Righteous', cursive;
+  text-decoration: none;
+}
+
+.login-link,.logout-link {
+  grid-column: 7;
+}
+
+.signup-link {
+  grid-column: 6;
+  grid-row: 1;
+}
+
+.my-characters-link{
+  grid-column: 3;
+}
+
+.create-character-link {
+  grid-column: 5;
+}
+
+/* character list */
+.list {
+  display: block;
+
+}
+
+.list-item {
+  display: grid;
+  grid-template-columns: 40% 20% 20% 20% ;
+  height: 150px;
+  width: 80%;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 1% auto 1% auto;
+  /* background-image: url('https://i.pinimg.com/originals/a3/8d/3e/a38d3e464c2dec2f2e9e36b9f71da848.jpg'); */
+  background-color: blanchedalmond;
+  background-repeat: no-repeat;
+  background-size:100%;
+}
+
+.list-item:hover {
+  cursor: pointer;
+}
+
+.list-item > span,img {
+  margin: auto auto auto auto;
+}
+
+.list-image {
+  height: 100px;
+  width: auto;
+}
+
+/* Create Character */
+.CreateCharacter {
+  /* display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-rows: 50px 100%; */
+}
+
+.race-info {
+  height: 80%;
+  width: 80%;
+  margin: 0.5% auto 0.5% auto;
+  background-color: blanchedalmond;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.class-info {
+  height: 80%;
+  width: 80%;
+  margin: 0.5% auto 0.5% auto;
+  background-color: blanchedalmond;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.ability-scores-new {
+  height: 80%;
+  width: 80%;
+  margin: 0.5% auto 0.5% auto;
+  background-color: blanchedalmond;
+  border-radius: 5px;
+  border: 1px solid black;
+  display: grid;
+  /* grid-template-columns: 33% 33% 33%; */
+  grid-template-rows: 10% 10% auto;
+}
+.ability-label {
+  /* grid-column: 2; */
+  grid-row: 1;
+}
+
+.ability-points {
+  /* grid-column: 2; */
+  grid-row: 2;
+  margin-top: 1%;
+}
+
+.ability-scores-container{
+  grid-row: 3;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 2% 3% 2% 3%;
+  
+}
+
+/* character page */
+
+.character-page {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 10% 300px 300px 10%;
+}
+
+.character-name-container {
+  margin: auto;
+  height: 75%;
+  width: 80%;
+  grid-row: 1;
+  grid-column: 1 / span 2;
+  background-color: blanchedalmond;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.character-name {
+  align-items: center;
+  padding-top: 1%;
+  font-family: 'Righteous', cursive;
+  font-size: 150%;
+  display:flex;
+  flex-wrap: wrap;
+}
+
+.delete-button-container {
+  grid-row: 4;
+  grid-column: 1 / span 2;
+}
+
+.delete-button {
+  border: 2px solid black;
+  background-color: darkred;
+  width: 50%;
+  height: 50px;
+  font-size: 200%;
+}
+
+.delete-button:hover {
+  cursor: pointer;
+}
+
+.character-name > span {
+  margin: auto;
+}
+
+.character-portrait-container {
+  margin: auto;
+  height: 98%;
+  width: 98%;
+  grid-row: 2;
+  grid-column: 1;
+  background-color: blanchedalmond;
+  border-radius: 5px;
+  border: 1px solid black;
+  display: block;
+}
+
+.character-portrait {
+  margin-top: auto;
+  height: 100%;
+  width: auto;
+}
+
+.character-attributes-container {
+  margin: auto;
+  height: 98%;
+  width: 98%;
+  grid-row: 2;
+  grid-column: 2;
+  background-color: blanchedalmond;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.character-info-container{
+  margin: auto;
+  height: 98%;
+  width: 98%;
+  grid-row: 3;
+  grid-column: 1;
+  background-color: blanchedalmond;
+  border-radius: 5px;
+  border: 1px solid black;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 10% 90%;
+}
+
+#class-tab {
+  grid-column: 1;
+  grid-row: 1;
+  border-right: 1px solid black;
+  border-radius: 5px 0 0 0;
+}
+
+#race-tab {
+  grid-column: 2;
+  grid-row: 1;
+  border-radius: 0 5px 0 0;
+}
+
+.not-grey {
+background-color: blanchedalmond;
+
+}
+
+.grey {
+  border-bottom: 1px solid black;
+  background-color: rgba(190, 161, 117, 0.555);
+  opacity: 0.5;
+}
+
+.grey:hover {
+  cursor: pointer;
+}
+
+.character-class-container, .character-race-container {
+  grid-column: 1 / span 2;
+  grid-row: 2;
+  margin: 0 auto 0 auto;
+  height: 98%;
+  width: 95%;
+  font-size: 14px;
+}
+
+.character-proficiencies-list {
+  list-style: none;
+  display: block;
+}
+
+
+
+.character-notes-container {
+  margin: auto;
+  height: 98%;
+  width: 98%;
+  grid-row: 3;
+  grid-column: 2;
+  background-color: blanchedalmond;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.character-notes {
+  height: 70%;
+  width: 95%;
+  resize: none;
+  border-radius: 5px;
+  border: 1px solid black
+}

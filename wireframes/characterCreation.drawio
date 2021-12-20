@@ -1,0 +1,70 @@
+<mxfile host="65bd71144e">
+    <diagram id="yINI2rw_4JIcWl7Hiipb" name="Page-1">
+        <mxGraphModel dx="895" dy="1079" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="80" width="680" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="My Characters" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="590" y="90" width="90" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="Create New Character" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="490" y="90" width="90" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="Logout" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="690" y="90" width="60" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="user&lt;br&gt;icon" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="90" y="85" width="50" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="Character Element Dropdown" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="310" width="600" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="Character Element Dropdown" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="390" width="600" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="Character Element Dropdown" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="470" width="600" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="Character Element Dropdown" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="550" width="600" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="Character Element Dropdown" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="630" width="600" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="Randomizer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="360" y="150" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="Save" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="360" y="980" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="Character Name" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="230" width="680" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="image input" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="240" y="900" width="360" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="Stats" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="200" y="720" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="Stats" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="200" y="800" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="Stats" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="360" y="720" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="Stats" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="360" y="800" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="Stats" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="520" y="800" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="Stats" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="520" y="720" width="120" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
